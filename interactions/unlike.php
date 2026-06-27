@@ -2,7 +2,7 @@
 
 header("Content-Type: application/json");
 
-require_once "init.php";
+require_once "../init.php";
 
 $token = trim($_POST["token"] ?? "");
 $postID = intval($_POST["post_id"] ?? 0);
