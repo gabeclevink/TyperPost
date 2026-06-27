@@ -2,7 +2,7 @@
 
 header("Content-Type: application/json");
 
-require_once "init.php";
+require_once "../init.php";
 
 $token=$_GET["token"] ?? "";
 
