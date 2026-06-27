@@ -1,7 +1,7 @@
 <?php
 
 header("Content-Type: application/json");
-require_once "init.php";
+require_once "../init.php";
 
 $id = intval($_GET["id"] ?? 0);
 $username = trim($_GET["username"] ?? "");
